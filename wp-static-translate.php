@@ -18,23 +18,7 @@ $table_name;
 *install function
 */
 function static_install (){
-	global $wpdb; 
-	global $static_db_version;
-
-    $table_name = $wpdb->prefix . "static_translate";
-
-    if($wpdb->get_var("SHOW TABLES LIKE '$table_name'") != $table_name){
-    	$sql = "CREATE TABLE " . $table_name . " (
-    	  	id mediumint(9) NOT NULL AUTO_INCREMENT,
-    	  	en_US tinytext NOT NULL,
-    	    UNIQUE KEY id (id)
-    	);";
-
-    	require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
-    	dbDelta($sql);
-
-    	add_option("static_db_versio", $static_db_versio);
-    }
+	create_table ("static_translate");
 }
 register_activation_hook(__FILE__,'static_install');
 
@@ -51,7 +35,6 @@ function for_admin_enqueue() {
 }
 add_action( 'admin_enqueue_scripts', 'for_admin_enqueue' );
 
-
 /*
 *add js and css files for front
 */
@@ -66,8 +49,6 @@ add_action('get_footer','for_front_enqueue');
 require_once realpath(__DIR__) . "/inc/db_manager.php";
 require_once realpath(__DIR__) . "/inc/translate_settings_page.php";
 require_once realpath(__DIR__) . "/inc/translate.php";
-
-
 
 /*
 *register menu button

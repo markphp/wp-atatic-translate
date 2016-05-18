@@ -1,4 +1,24 @@
 <?php
+//add table
+function create_table ($t_name){
+	global $wpdb; 
+	global $static_db_version;
+
+    $table_name = $wpdb->prefix . $t_name;
+
+    if($wpdb->get_var("SHOW TABLES LIKE '$table_name'") != $table_name){
+    	$sql = "CREATE TABLE " . $table_name . " (
+    	  	id mediumint(9) NOT NULL AUTO_INCREMENT,
+    	  	en_US tinytext NOT NULL,
+    	    UNIQUE KEY id (id)
+    	);";
+
+    	require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
+    	dbDelta($sql);
+
+    	add_option("static_db_versio", $static_db_versio);
+    }
+}
 //add new language
 function add_new_translate($t_name,$name){
 	global $wpdb;
