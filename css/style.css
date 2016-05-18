@@ -1,0 +1,21 @@
+#wpcontent{
+	padding: 0;
+}
+.wrap{
+	padding: 10px;
+    margin: 0;
+    background-color: rgba(13, 119, 226, 0.7);
+}
+h1.title{
+	color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.83);
+}
+.translate_table{
+	background-color: #fff;
+}
+.translate_table thead th{
+	background-color: #855D8C;
+}
+.translate_table .row_bg{
+	background-color: #F1F1F1;
+}
