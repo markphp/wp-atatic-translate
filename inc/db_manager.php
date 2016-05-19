@@ -19,6 +19,7 @@ function create_table ($t_name){
     	add_option("static_db_versio", $static_db_versio);
     }
 }
+
 //add new language
 function add_new_translate($t_name,$name){
 	global $wpdb;
