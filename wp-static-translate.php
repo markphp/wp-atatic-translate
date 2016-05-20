@@ -12,7 +12,6 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 global $mltlngg_current_language;
 $static_db_version = "1.0";
-$table_name;
 
 /*
 *install function
@@ -27,7 +26,7 @@ register_activation_hook(__FILE__,'static_install');
 */
 function for_admin_enqueue() {
 	if(get_admin_page_title() == 'WP static translate'){
-	    wp_enqueue_style( 'cstatic_translate', plugin_dir_url( __FILE__ ) . 'css/style.css', false, '1.0.0' );
+	    wp_enqueue_style( 'static_translate', plugin_dir_url( __FILE__ ) . 'css/style.css', false, '1.0.0' );
 
 	    wp_enqueue_script( 'jquery', plugin_dir_url( __FILE__ ) . 'js/jquery.js', array( 'jquery' ),'1.0.0' );
 	    wp_enqueue_script( 'static_translate_script', plugin_dir_url( __FILE__ ) . 'js/script.js', array( 'jquery' ),'1.0.0' );
@@ -49,6 +48,7 @@ add_action('get_footer','for_front_enqueue');
 require_once realpath(__DIR__) . "/inc/db_manager.php";
 require_once realpath(__DIR__) . "/inc/translate_settings_page.php";
 require_once realpath(__DIR__) . "/inc/translate.php";
+//require_once realpath(__DIR__) . "/inc/get_table.php";
 
 /*
 *register menu button

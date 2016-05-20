@@ -4,7 +4,7 @@
 .wrap{
 	padding: 10px;
     margin: 0;
-    background-color: rgba(13, 119, 226, 0.7);
+    background-color: rgba(229, 124, 146, 0.75);;
 }
 h1.title{
 	color: rgb(255, 255, 255);
@@ -14,8 +14,32 @@ h1.title{
 	background-color: #fff;
 }
 .translate_table thead th{
-	background-color: #855D8C;
+	background-color: rgba(133, 93, 140, 0.82);;
 }
 .translate_table .row_bg{
 	background-color: #F1F1F1;
+}
+
+.add_language{
+	text-align: center;
+	margin-left: 4px;
+	padding: 4px 8px;
+	position: relative;
+	top: 1px;
+	text-decoration: none;
+	border: none;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	background: #f7f7f7;
+	text-shadow: none;
+	font-weight: 600;
+	font-size: 13px;
+	display: inline-block;
+	width: 48%;
+}
+.add_language:hover {
+	border-color: #008EC2;
+	background: #00a0d2;
+	color: #fff;
 }

@@ -1,0 +1,12 @@
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
