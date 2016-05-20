@@ -1,6 +1,9 @@
 #wpcontent{
 	padding: 0;
 }
+#wpbody-content {
+	background-color: #F7BCA8;
+}
 .wrap{
 	padding: 10px;
     margin: 0;
@@ -19,7 +22,9 @@ h1.title{
 .translate_table .row_bg{
 	background-color: #F1F1F1;
 }
-
+.edit_butt {
+	text-align: center;
+}
 .add_language{
 	text-align: center;
 	margin-left: 4px;
@@ -36,7 +41,9 @@ h1.title{
 	font-weight: 600;
 	font-size: 13px;
 	display: inline-block;
-	width: 48%;
+	width: 47%;
+	position: relative;
+	margin: 10px auto;
 }
 .add_language:hover {
 	border-color: #008EC2;

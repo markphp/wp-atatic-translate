@@ -38,7 +38,7 @@ $(document).ready(function(){
 
 		$("#row_id").val($(this).find(":first-child").text());
 		$("#en_US").val($(this).find(":first-child").next().text());
-        $("#zh_HK").val($(this).find(":first-child").next().next().text());
+        $("#ru_RU").val($(this).find(":first-child").next().next().text());
 	});
 });
 })(jQuery);

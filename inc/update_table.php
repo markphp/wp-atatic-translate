@@ -5,8 +5,8 @@ if(isset($_POST) && $_POST!=NULL){
 
 	$t_name="static_translate";
 	$t_ID=$_POST['row_id'];
-	$data=['en_US','zh_HK'];
-	$value=[$_POST['en_US'],$_POST['zh_HK']];
+	$data=['en_US','ru_RU'];
+	$value=[$_POST['en_US'],$_POST['ru_RU']];
 
 
 	update_row($t_name,$t_ID,$data,$value);

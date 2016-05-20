@@ -1,7 +1,6 @@
 (function( $ ) {
 	$(document).ready(function(){
 		get_all();
-
 	});
 })(jQuery);
 
@@ -41,12 +40,31 @@ function update() { //Ajax
 
 function set_row() { //Ajax
 	var msg = jQuery("#insert_form").serialize();
+	//alert(msg);
 	jQuery.ajax({
 		type: "POST",
 		url: '/wp-content/plugins/wp-static-translate/inc/set_row.php',
 		data: msg,
 		success: function(data) {
 
+			alert(data);
+			get_all();
+
+		},
+		error:  function(xhr, str){
+			alert("Error!");
+		}
+	});
+}
+
+function set_col(){ //Ajax
+	var msg = jQuery("#add_coll").serialize();
+	jQuery.ajax({
+		type: "POST",
+		url: '/wp-content/plugins/wp-static-translate/inc/set_coll.php',
+		data: msg,
+		success: function(data) {
+		//alert(data);
 			get_all();
 
 		},

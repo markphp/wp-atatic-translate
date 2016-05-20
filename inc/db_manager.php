@@ -53,6 +53,7 @@ function get_row($t_name,$t_id){
 	if($wpdb->get_var("SHOW TABLES LIKE '$table_name'") == $table_name){
 
 		$query = "SELECT * FROM " . $table_name . "WHERE id =".$t_id;
+
 		return $wpdb->get_results($query);
 	}
 }
@@ -98,15 +99,12 @@ function add_row($t_name,$value){
 	$table_name= $wpdb->prefix . $t_name;
 
 	if($wpdb->get_var("SHOW TABLES LIKE '$table_name'") == $table_name){
-		//$query="INSERT INTO $table_name `en_US`= '$value[0]',`zh_HK`='$value[1]'";
-		//var_dump($query);
+		
 		$wpdb->insert($table_name,array(
 			'en_US'=> $value[0],
-			'zh_HK'=>$value[1]
+			'ru_RU'=>$value[1]
 		));
-		?>
 
-<?php
 	}
 
 }
