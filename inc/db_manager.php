@@ -45,8 +45,24 @@ function get_all($t_name){
     }  
 }
 
+//get row
+function get_row($t_name,$t_id){
+	global $wpdb;
+	$table_name = $wpdb->prefix . $t_name;
 
-//get table colum name
+	if($wpdb->get_var("SHOW TABLES LIKE '$table_name'") == $table_name){
+
+		$query = "SELECT * FROM " . $table_name . "WHERE id =".$t_id;
+		return $wpdb->get_results($query);
+	}
+}
+
+/**
+ * get table colum name function
+ * @param $t_name
+ *
+ * @return array
+ */
 function get_colums_name($t_name){
 	global $wpdb;
 	$table_name= $wpdb->prefix . $t_name;
@@ -58,15 +74,39 @@ function get_colums_name($t_name){
 	}
 }
 
-//insert update
+/**
+ * insert update function
+ * @param $t_name
+ * @param $t_ID
+ * @param $data
+ * @param $value
+ * need change
+ */
 function update_row($t_name,$t_ID,$data,$value){
 	global $wpdb;
 	$table_name= $wpdb->prefix . $t_name;
 
 	if($wpdb->get_var("SHOW TABLES LIKE '$table_name'") == $table_name){
-		$wpdb->query( $wpdb->prepare("
-							UPDATE  $table_name
-							SET $data = $value
-							WHERE ID = $t_ID"));
+		$query ="UPDATE  $table_name SET `$data[0]` = '$value[0]',`$data[1]` = '$value[1]' WHERE id = $t_ID";
+		//var_dump($query);
+		$wpdb->query($query);
 	}
+}
+
+function add_row($t_name,$value){
+	global $wpdb;
+	$table_name= $wpdb->prefix . $t_name;
+
+	if($wpdb->get_var("SHOW TABLES LIKE '$table_name'") == $table_name){
+		//$query="INSERT INTO $table_name `en_US`= '$value[0]',`zh_HK`='$value[1]'";
+		//var_dump($query);
+		$wpdb->insert($table_name,array(
+			'en_US'=> $value[0],
+			'zh_HK'=>$value[1]
+		));
+		?>
+
+<?php
+	}
+
 }

@@ -1,5 +1,5 @@
 <?php
-//require ($_SERVER[DOCUMENT_ROOT].'/wp-load.php');
+
 if(isset($_POST['name']) && $_POST['name']!="") {
 require realpath(__DIR__) . "/db_manager.php";
 
@@ -19,9 +19,7 @@ require realpath(__DIR__) . "/db_manager.php";
 
     foreach (get_all($t_name) as $row => $value) {
         $table .= '<tr class="data_row ';
-        if ($row % 2 != 0) {
-            $table .= 'row_bg';
-        }
+
         $table .= '">';
         foreach ($value as $key => $data) {
 
@@ -31,6 +29,21 @@ require realpath(__DIR__) . "/db_manager.php";
     }
 
     $table .= '</table>';
+
+    $table .='<script>
+(function( $ ) {
+$(document).ready(function(){
+	//get velue to change
+	$(".data_row").dblclick(function(){
+
+		$("#row_id").val($(this).find(":first-child").text());
+		$("#en_US").val($(this).find(":first-child").next().text());
+        $("#zh_HK").val($(this).find(":first-child").next().next().text());
+	});
+});
+})(jQuery);
+</script>';
+
 
     echo $table;
 }

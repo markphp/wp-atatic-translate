@@ -1,12 +1,7 @@
 (function( $ ) {
 	$(document).ready(function(){
+		get_all();
 
-		//get velue to change
-		$('.data_row').dblclick(function(){
-
-			//alert($('.thead tr').find(':first-child').text() + $(this).find(':first-child').text());
-
-		})
 	});
 })(jQuery);
 
@@ -35,7 +30,24 @@ function update() { //Ajax
 		data: msg,
 		success: function(data) {
 
-			alert(data);
+			//alert(data);
+			get_all();
+		},
+		error:  function(xhr, str){
+			alert("Error!");
+		}
+	});
+}
+
+function set_row() { //Ajax
+	var msg = jQuery("#insert_form").serialize();
+	jQuery.ajax({
+		type: "POST",
+		url: '/wp-content/plugins/wp-static-translate/inc/set_row.php',
+		data: msg,
+		success: function(data) {
+
+			get_all();
 
 		},
 		error:  function(xhr, str){

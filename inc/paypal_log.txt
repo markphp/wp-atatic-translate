@@ -10,3 +10,438 @@ Array
 (
     [name] => static_translate
 )
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [en_US] => sasas
+    [zh_HK] => asas
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [row_id] => 1
+    [en_US] => Hon Kong’s one-stop platform for beauty booking and pampering!
+    [zh_HK] => 香港的一站式美容預約及護理平台！
+)
+Array
+(
+    [row_id] => 1
+    [en_US] => Hon Kong’s one-stop platform for beauty booking and pampering!
+    [zh_HK] => 香港的一站式美容預約及護理平台！
+)
+Array
+(
+    [row_id] => 1
+    [en_US] => Hon Kong’s one-stop platform for beauty booking and pampering!
+    [zh_HK] => 香港的一站式美容預約及護理平台！
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [row_id] => 1
+    [en_US] => HongKong’s one-stop platform for beauty booking and pampering!
+    [zh_HK] => 香港的一站式美容預約及護理平台！
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [row_id] => 1
+    [en_US] => Hong Kong’s one-stop platform for beauty booking and pampering!
+    [zh_HK] => 香港的一站式美容預約及護理平台！
+)
+Array
+(
+    [row_id] => 1
+    [en_US] => Hong Kong’s one-stop platform for beauty booking and pampering!
+    [zh_HK] => 香港的一站式美容預約及護理平台！
+)
+Array
+(
+    [row_id] => 1
+    [en_US] => Hong Kong’s one-stop platform for beauty booking and pampering!
+    [zh_HK] => 香港的一站式美容預約及護理平台！
+)
+Array
+(
+    [row_id] => 1
+    [en_US] => Hong Kong’s one-stop platform for beauty booking and pampering!
+    [zh_HK] => 香港的一站式美容預約及護理平台！
+)
+Array
+(
+    [row_id] => 1
+    [en_US] => Hong Kong’s one-stop platform for beauty booking and pampering!
+    [zh_HK] => 香港的一站式美容預約及護理平台！
+)
+Array
+(
+    [row_id] => 1
+    [en_US] => Hong Kong’s one-stop platform for beauty booking and pampering!
+    [zh_HK] => 香港的一站式美容預約及護理平台！
+)
+Array
+(
+    [row_id] => 1
+    [en_US] => Hong Kong’s one-stop platform for beauty booking and pampering!
+    [zh_HK] => 香港的一站式美容預約及護理平台！
+)
+Array
+(
+    [row_id] => 1
+    [en_US] => Hong Kong’s one-stop platform for beauty booking and pampering!
+    [zh_HK] => 香港的一站式美容預約及護理平台！
+)
+Array
+(
+    [row_id] => 2
+    [en_US] => BloomM allows you to browse and book beauty appointments at Hong Kong’s finest spas and salons!
+    [zh_HK] => BloomMe讓你瀏覽及預約香港最優質的水療及美容中心！
+)
+Array
+(
+    [row_id] => 2
+    [en_US] => BloomM allows you to browse and book beauty appointments at Hong Kong’s finest spas and salons!
+    [zh_HK] => BloomMe讓你瀏覽及預約香港最優質的水療及美容中心！
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [row_id] => 2
+    [en_US] => BloomMe allows you to browse and book beauty appointments at Hong Kong’s finest spas and salons!
+    [zh_HK] => BloomMe讓你瀏覽及預約香港最優質的水療及美容中心！
+)
+Array
+(
+    [row_id] => 2
+    [en_US] => BloMe allows you to browse and book beauty appointments at Hong Kong’s finest spas and salons!
+    [zh_HK] => BloomMe讓你瀏覽及預約香港最優質的水療及美容中心！
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [row_id] => 
+    [en_US] => 
+    [zh_HK] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [row_id] => 
+    [en_US] => 
+    [zh_HK] => 
+)
+Array
+(
+    [en_US] => test
+    [zh_HK] => тест
+)
+Array
+(
+    [en_US] => test
+    [zh_HK] => тест
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [en_US] => test
+    [zh_HK] => тест
+)
+Array
+(
+    [en_US] => test
+    [zh_HK] => тест
+)
+Array
+(
+    [en_US] => test
+    [zh_HK] => тест
+)
+Array
+(
+    [en_US] => test
+    [zh_HK] => тест
+)
+Array
+(
+    [en_US] => test
+    [zh_HK] => тест
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [row_id] => 2
+    [en_US] => BloomMe allows you to browse and book beauty appointments at Hong Kong’s finest spas and salons!
+    [zh_HK] => BloomMe讓你瀏覽及預約香港最優質的水療及美容中心！
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [en_US] => test
+    [zh_HK] => тест
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [en_US] => test
+    [zh_HK] => тест
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [en_US] => test
+    [zh_HK] => тест
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [en_US] => test
+    [zh_HK] => тест
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [en_US] => test
+    [zh_HK] => 1234
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [en_US] => test
+    [zh_HK] => 133
+)
+Array
+(
+    [en_US] => test
+    [zh_HK] => 13434
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [en_US] => 1234
+    [zh_HK] => 43
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [en_US] => dfgdfgdf
+    [zh_HK] => dfgdfgdf
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [row_id] => 4
+    [en_US] => 4545
+    [zh_HK] => тест
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [row_id] => 6
+    [en_US] => testrrrrrrrr
+    [zh_HK] => 133
+)
+Array
+(
+    [name] => static_translate
+)
