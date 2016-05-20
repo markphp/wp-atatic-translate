@@ -10,7 +10,7 @@ Text Domain: wp-static-translate
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
-
+global $mltlngg_current_language;
 $static_db_version = "1.0";
 $table_name;
 

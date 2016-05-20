@@ -2,31 +2,29 @@
 /*
 * Apply find and replace rules
 */
+
+
 function far_ob_call( $buffer ) { // $buffer contains entire page
+
+global $mltlngg_current_language;
 
 	$far_settings = get_all("static_translate");
 
 	$temp=[];
 
-	$tet = "Hong Kong’s one-stop platform for beauty booking and pampering!";
+	$tet = $buffer;
 
-		foreach( $far_settings as $row ) {
-			$i=0;
-				foreach ($row as $value) {
-					$temp[$i] = $value;
-					$i++;
-				}
+	$buffer = preg_replace_callback("/(&#[0-9]+;)/", function($m) { return mb_convert_encoding($m[1], "UTF-8", "HTML-ENTITIES"); }, $buffer);
 
-				$a.=$temp[1].$temp[2];
-
-				//$t  = stristr($buffer,$temp[1]);
-				//str_replace( $temp[1], $temp[2], $tet );	
-				//$buffer.=$temp[1].$temp[2];		
-				//$a = str_replace( (string)$temp[1], (string)$temp[2], $tet );
-				$buffer = str_replace( $temp[1], $temp[2], $tet );
-				$tet.='--------'.$temp[1][9].'--------'.$tet[9];
-		}
-	//$a = str_replace( "Hong Kong’s one-stop platform for beauty booking and pampering!", " ", $tet );
+	foreach( $far_settings as $row ) {
+		
+			foreach ($row as $key => $value) {
+				$temp[$key] = $value;				
+			}
+			
+			$buffer = str_replace('{{'.$temp['en_US'].'}}', $temp[$mltlngg_current_language], $buffer );	
+			
+	}
 
 	return $buffer;
 }

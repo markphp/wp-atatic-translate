@@ -1,6 +1,8 @@
 <?php
 
 function translate_settings_page(){
+	global $mltlngg_current_language;
+    echo $mltlngg_current_language;
 ?>
 	<div class="wrap">
 		<H1 class="title"><?php echo get_admin_page_title(); ?></H1>
