@@ -46,7 +46,7 @@ function translate_settings_page(){
 				<select name="selected">
 					<?php
 						foreach($mltlngg_languages as $name){
-							echo '<option value="'.$name[1].'">'.$name[2].'</option>';
+							echo '<option value="'.$name[1].'">'.$name[1].' - '.$name[2].'</option>';
 						}
 					?>
 				</select>

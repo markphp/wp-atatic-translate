@@ -1588,3 +1588,168 @@ Array
 (
     [name] => static_translate
 )
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 123
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [Serch_rule] => Hong Kong’s one-stop platform for beauty booking and pampering!
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [selected] => zh_HK
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [ID] => 1
+    [Serch_rule] => Hong Kong’s one-stop platform for beauty booking and pampering!
+    [zh_HK] => 香港的一站式美容預約及護理平台！
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [selected] => en_US
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [ID] => 1
+    [Serch_rule] => Hong Kong’s one-stop platform for beauty booking and pampering!
+    [zh_HK] => 香港的一站式美容預約及護理平台！
+    [en_US] => Hong Kong’s one-stop platform for beauty booking and pampering!
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)

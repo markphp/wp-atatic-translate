@@ -13,7 +13,9 @@ function create_table ($t_name){
     	  	ID mediumint(9) NOT NULL AUTO_INCREMENT,
     	  	Serch_rule tinytext NOT NULL,
     	    UNIQUE KEY id (id)
-    	);";
+    	    )
+    	    CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+    	";
 
     	require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
     	dbDelta($sql);
@@ -105,6 +107,19 @@ function add_row($t_name,$value){
 			'Serch_rule'=> $value[0]
 		));
 
+	}
+
+}
+
+function del_row($t_name,$t_ID){
+	global $wpdb;
+	$table_name= $wpdb->prefix . $t_name;
+
+	if($wpdb->get_var("SHOW TABLES LIKE '$table_name'") == $table_name){
+
+		$wpdb->query("DELETE FROM $table_name WHERE `ID` = '$t_ID'");
+
+		echo $t_ID;
 	}
 
 }

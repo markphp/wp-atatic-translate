@@ -9,6 +9,10 @@
 		$('.add_changed').click(function(){
 			$('#add_coll').fadeIn();
 		});
+
+		$('.dell').click(function(){
+
+		});
 	});
 })(jQuery);
 
@@ -101,6 +105,28 @@ function get_row(id){ //Ajax
 			/*alert('Add successful');
 			jQuery('#add_coll').fadeOut();
 			get_all();*/
+
+		},
+		error:  function(xhr, str){
+			alert("Error!");
+		}
+	});
+}
+
+function del_row(id){ //Ajax
+	var msg = {ID:id};
+	//console.log(msg);
+	jQuery.ajax({
+		type: "POST",
+		url: '/wp-content/plugins/wp-static-translate/inc/del_row.php',
+		data: msg,
+		success: function(data) {
+
+			jQuery('#debug').html(data);
+			//alert(data);
+			/*alert('Del successful');
+			 */
+			 get_all();
 
 		},
 		error:  function(xhr, str){

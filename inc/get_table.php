@@ -28,7 +28,7 @@ require realpath(__DIR__) . "/db_manager.php";
 
             $table .= '<td>' . $data . '</td>';
         }
-        $table .= '<td id="dell" style="text-align: center;vertical-align: middle;color:red;font-weight: bold;">X</td>';
+        $table .= '<td class="dell" id="" style="text-align: center;vertical-align: middle;color:red;font-weight: bold;">X</td>';
 
         $table .= '</tr>';
     }
@@ -43,6 +43,11 @@ $(document).ready(function(){
 
 		var ID = $(this).find(":first-child").text();
         get_row(ID);
+	});
+
+	$(".dell").click(function(){
+		var ID = $(".data_row").find(":first-child").text();
+		//del_row(ID);
 	});
 });
 })(jQuery);
