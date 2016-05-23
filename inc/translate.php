@@ -22,7 +22,7 @@ global $mltlngg_current_language;
 				$temp[$key] = $value;				
 			}
 			
-			$buffer = str_replace('{{'.$temp['en_US'].'}}', $temp[$mltlngg_current_language], $buffer );	
+			$buffer = str_replace('{{'.$temp['Serch_rule'].'}}', $temp[$mltlngg_current_language], $buffer );
 			
 	}
 

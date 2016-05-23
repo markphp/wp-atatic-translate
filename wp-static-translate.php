@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: WP static translate
+Plugin Name: WP Static Translate
 Plugin URI: https://github.com/markphp/wp-static-translate
 Description: A simple and easy way to translate your text for all the static pages in WordPress. A great development tool!
 Author: Mark
 Author URI: mark.org.ua
-Version: 0.1.0
+Version: 1.0.0
 Text Domain: wp-static-translate
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html

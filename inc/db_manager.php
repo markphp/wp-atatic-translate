@@ -1,5 +1,6 @@
 <?php
 require ($_SERVER[DOCUMENT_ROOT].'/wp-load.php');
+
 //add table
 function create_table ($t_name){
 	global $wpdb; 
@@ -9,8 +10,8 @@ function create_table ($t_name){
 
     if($wpdb->get_var("SHOW TABLES LIKE '$table_name'") != $table_name){
     	$sql = "CREATE TABLE " . $table_name . " (
-    	  	id mediumint(9) NOT NULL AUTO_INCREMENT,
-    	  	en_US tinytext NOT NULL,
+    	  	ID mediumint(9) NOT NULL AUTO_INCREMENT,
+    	  	Serch_rule tinytext NOT NULL,
     	    UNIQUE KEY id (id)
     	);";
 
@@ -21,8 +22,8 @@ function create_table ($t_name){
     }
 }
 
-//add new language
-function add_new_translate($t_name,$name){
+//add new column
+function add_new_column($t_name,$name){
 	global $wpdb;
 	$table_name = $wpdb->prefix . $t_name;
 
@@ -52,8 +53,8 @@ function get_row($t_name,$t_id){
 
 	if($wpdb->get_var("SHOW TABLES LIKE '$table_name'") == $table_name){
 
-		$query = "SELECT * FROM " . $table_name . "WHERE id =".$t_id;
-
+		$query = "SELECT * FROM " . $table_name . " WHERE id =".$t_id;
+//var_dump($query);
 		return $wpdb->get_results($query);
 	}
 }
@@ -83,12 +84,12 @@ function get_colums_name($t_name){
  * @param $value
  * need change
  */
-function update_row($t_name,$t_ID,$data,$value){
+function update_row($t_name,$t_ID,$data){
 	global $wpdb;
 	$table_name= $wpdb->prefix . $t_name;
 
 	if($wpdb->get_var("SHOW TABLES LIKE '$table_name'") == $table_name){
-		$query ="UPDATE  $table_name SET `$data[0]` = '$value[0]',`$data[1]` = '$value[1]' WHERE id = $t_ID";
+		$query ="UPDATE  $table_name SET $data WHERE id = $t_ID";
 		//var_dump($query);
 		$wpdb->query($query);
 	}
@@ -101,8 +102,7 @@ function add_row($t_name,$value){
 	if($wpdb->get_var("SHOW TABLES LIKE '$table_name'") == $table_name){
 		
 		$wpdb->insert($table_name,array(
-			'en_US'=> $value[0],
-			'ru_RU'=>$value[1]
+			'Serch_rule'=> $value[0]
 		));
 
 	}

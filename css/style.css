@@ -1,16 +1,16 @@
 #adminmenu li.current a.menu-top {
-	background: #72297D;
+	background: #A551DE;
 }
 #wpcontent{
 	padding: 0;
 }
 #wpbody-content {
-	background-color: #F7BCA8;
+	background-color: #BC7CE8;
 }
 .wrap{
 	padding: 10px;
     margin: 0;
-    background-color: rgba(229, 124, 146, 0.75);;
+    background-color: #A551DE;
 }
 h1.title{
 	color: rgb(255, 255, 255);
@@ -20,26 +20,29 @@ h1.title{
 	background-color: #fff;
 }
 .translate_table thead th{
-	background-color: rgba(133, 93, 140, 0.82);;
+	background-color: #5F079A;
+	color:#BC7CE8;
 }
 .translate_table .row_bg{
-	background-color: #F1F1F1;
+	background-color: #E3CCF3;
 }
 .edit_butt {
 	text-align: center;
 }
-.add_language{
+a {
+	color: #f3f3f3;
+}
+.add_changed,.add_row{
 	text-align: center;
 	margin-left: 4px;
 	padding: 4px 8px;
 	position: relative;
 	top: 1px;
 	text-decoration: none;
-	border: none;
-	border: 1px solid #ccc;
+	border: 1px solid rgba(95, 7, 154, 0.3);
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
-	background: #f7f7f7;
+	background: rgb(183, 83, 251);
 	text-shadow: none;
 	font-weight: 600;
 	font-size: 13px;
@@ -48,11 +51,12 @@ h1.title{
 	position: relative;
 	margin: 10px auto;
 }
-.add_language:hover {
-	border-color: #008EC2;
-	background: #00a0d2;
+.add_changed:hover,.add_row:hover {
+	border-color: #A551DE;
+	background: #5F079A;
 	color: #fff;
 }
+/*
 .forms_layout {
 	position: absolute;
 	top: 0;
@@ -60,4 +64,8 @@ h1.title{
 	background: #fff;
 	width: 100%;
 	display: none;
+}*/
+input[type=submit]{
+	background-color: #A551DE;
+	color: #fff;
 }

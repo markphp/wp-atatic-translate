@@ -13,18 +13,23 @@ require realpath(__DIR__) . "/db_manager.php";
     foreach (get_colums_name($t_name) as $colum) {
         $table .= '<th>' . $colum . '</th>';
     }
+    $table .= '<th></th>';
 
     $table .= '</tr>
                 </thead>';
 
     foreach (get_all($t_name) as $row => $value) {
         $table .= '<tr class="data_row ';
-
+        if($row%2 == 1){
+            $table .= 'row_bg';
+        }
         $table .= '">';
         foreach ($value as $key => $data) {
 
             $table .= '<td>' . $data . '</td>';
         }
+        $table .= '<td id="dell" style="text-align: center;vertical-align: middle;color:red;font-weight: bold;">X</td>';
+
         $table .= '</tr>';
     }
 
@@ -36,9 +41,8 @@ $(document).ready(function(){
 	//get velue to change
 	$(".data_row").dblclick(function(){
 
-		$("#row_id").val($(this).find(":first-child").text());
-		$("#en_US").val($(this).find(":first-child").next().text());
-        $("#ru_RU").val($(this).find(":first-child").next().next().text());
+		var ID = $(this).find(":first-child").text();
+        get_row(ID);
 	});
 });
 })(jQuery);

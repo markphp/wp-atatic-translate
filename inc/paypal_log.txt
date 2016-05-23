@@ -445,3 +445,1146 @@ Array
 (
     [name] => static_translate
 )
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [Serch_rule] => Hong Kong\'s one-stop platform for beauty booking and pampering!
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [Serch_rule] => BloomMe allows you to browse and book beauty appointments at Hong Kong\'s finest spas and salons!
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [Serch_rule] => How it Works
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [selected] => af
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [selected] => af
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [selected] => zh_TW
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [selected] => zh_TW
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [selected] => zh_CN
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [0] => 
+)
+Array
+(
+    [0] => 
+)
+Array
+(
+    [0] => 
+)
+Array
+(
+    [0] => 
+)
+Array
+(
+    [0] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [0] => 
+)
+Array
+(
+    [0] => 
+)
+Array
+(
+    [0] => 
+)
+Array
+(
+    [0] => 
+)
+Array
+(
+    [0] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    ["id"_] => >\"1\"
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [undefined] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [undefined] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [undefined] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [ID] => 2
+)
+Array
+(
+    [ID] => 3
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [ID] => 3
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [ID] => 2
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [ID] => 2
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [ID] => 2
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [ID] => 2
+)
+Array
+(
+    [ID] => 3
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [ID] => 3
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [ID] => 2
+)
+Array
+(
+    [ID] => 3
+)
+Array
+(
+    [ID] => 3
+    [Serch_rule] => How it Works
+    [zh_TW] => 
+    [zh_CN] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 2
+)
+Array
+(
+    [ID] => 3
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [ID] => 3
+)
+Array
+(
+    [Serch_rule] => How it Worksaa
+    [zh_TW] => 
+    [zh_CN] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 3
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 3
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 2
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [Serch_rule] => Hong Kong\\\'s one-stop platform for beauty booking and pampering!
+    [zh_TW] => 
+    [zh_CN] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [Serch_rule] => Hong Kong\\\'s one-stop platform for beauty booking and pampering!
+    [zh_TW] => 
+    [zh_CN] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [ID] => 1
+    [Serch_rule] => Hong Kong\\\'s one-stop platform for beauty booking and pampering!
+    [zh_TW] => 
+    [zh_CN] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [ID] => 3
+)
+Array
+(
+    [ID] => 3
+    [Serch_rule] => How it Works
+    [zh_TW] => 
+    [zh_CN] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [ID] => 1
+    [Serch_rule] => Hong Kong\\\'s one-stop platform for beauty booking and pampering!
+    [zh_TW] => 
+    [zh_CN] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 1
+    [Serch_rule] => Hong Kong\\\'s one-stop platform for beauty booking and pampering!
+    [zh_TW] => 
+    [zh_CN] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 1
+    [Serch_rule] => Hong Kong\\\'s one-stop platform for beauty booking and pampering!
+    [zh_TW] => 
+    [zh_CN] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 3
+)
+Array
+(
+    [ID] => 3
+    [Serch_rule] => How it Works
+    [zh_TW] => 
+    [zh_CN] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 3
+    [Serch_rule] => How it Works
+    [zh_TW] => 
+    [zh_CN] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 3
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [ID] => 1
+    [Serch_rule] => Hong Kong\\\'s one-stop platform for beauty booking and pampering!
+    [zh_TW] => 
+    [zh_CN] => 
+)
+Array
+(
+    [ID] => 1
+    [Serch_rule] => Hong Kong\\\'s one-stop platform for beauty booking and pampering!
+    [zh_TW] => 
+    [zh_CN] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 1
+    [Serch_rule] => Hong Kong\\\'s one-stop platform for beauty booking and pampering!
+    [zh_TW] => 
+    [zh_CN] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 1
+    [Serch_rule] => Hong Kong\\\'s one-stop platform for beauty booking and pampering!
+    [zh_TW] => 
+    [zh_CN] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 2
+)
+Array
+(
+    [ID] => 2
+    [Serch_rule] => BloomMe allows you to browse and book beauty appointments at Hong Kong\\\'s finest spas and salons!
+    [zh_TW] => 
+    [zh_CN] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 2
+    [Serch_rule] => BloomMe allows you to browse and book beauty appointments at Hong Kong\\\'s finest spas and salons!
+    [zh_TW] => 
+    [zh_CN] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 2
+    [Serch_rule] => BloomMe allows you to browse and book beauty appointments at Hong Kong\\\'s finest spas and salons!
+    [zh_TW] => 
+    [zh_CN] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 2
+    [Serch_rule] => BloomMe allows you to browse and book beauty appointments at Hong Kong\\\'s finest spas and salons!
+    [zh_TW] => 
+    [zh_CN] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 3
+)
+Array
+(
+    [ID] => 3
+    [Serch_rule] => How it Worksdfsfdf
+    [zh_TW] => 
+    [zh_CN] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 3
+)
+Array
+(
+    [ID] => 3
+    [Serch_rule] => How it Works
+    [zh_TW] => 
+    [zh_CN] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 2
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [Serch_rule] => BloomMe connects you to top spas & salons to ensure you find the right one for you at the right time.
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [Serch_rule] => BloomMe connects you to top spas & salons to ensure you find the right one for you at the right time.
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [Serch_rule] => BloomMe connects you to top spas & salons to ensure you find the right one for you at the right time.
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [Serch_rule] => BloomMe connects you to top spas & salons to ensure you find the right one for you at the right time.
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [Serch_rule] => фывцыв
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [selected] => af
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 4
+)
+Array
+(
+    [ID] => 4
+    [Serch_rule] => BloomMe connects you to top spas & salons to ensure you find the right one for you at the right time.
+    [zh_TW] => цуаываываы
+    [zh_CN] => 
+    [af] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [Serch_rule] => Hong Kong\'s one-stop platform for beauty booking and pampering!
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [ID] => 1
+    [Serch_rule] => Hong Kong\\\'s one-stop platform for beauty booking and pampering!
+    [zh_TW] => 
+    [zh_CN] => 香港的一站式美容預約及護理平台！
+    [af] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 3
+)
+Array
+(
+    [ID] => 3
+    [Serch_rule] => How it Works
+    [zh_TW] => 
+    [zh_CN] => 香港的一站式美容預約及護理平台！
+    [af] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [Serch_rule] => Hong Kong\'s one-stop platform for beauty booking and pampering!
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [Serch_rule] => Hong Kong\'s one-stop platform for beauty booking and pampering!
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [Serch_rule] => Hong Kong\'s one-stop platform for beauty booking and pampering!
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [Serch_rule] => Hong Kong\'s one-stop platform for beauty booking and pampering!
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [Serch_rule] => Hong Kong\'s one-stop platform for beauty booking and pampering!
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [Serch_rule] => Hong Kong\'s one-stop platform for beauty booking and pampering!
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [Serch_rule] => Hong Kong\'s one-stop platform for beauty booking and pampering!
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [Serch_rule] => Hong Kong\'s one-stop platform for beauty booking and pampering!
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 7
+)
+Array
+(
+    [ID] => 7
+    [Serch_rule] => Hong Kong\'s one-stop platform for beauty booking and pampering!
+    [zh_TW] => 香港的一站式美容預約及護理平台！
+    [zh_CN] => 
+    [af] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [selected] => zh
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 7
+)
+Array
+(
+    [ID] => 7
+    [Serch_rule] => Hong Kong\'s one-stop platform for beauty booking and pampering!
+    [zh_TW] => 香港的一站式美容預約及護理平台！
+    [zh_CN] => 
+    [af] => 
+    [zh] => 
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [selected] => zh
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 7
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [selected] => zh_HK
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [Serch_rule] => Hong Kong’s one-stop platform for beauty booking and pampering!
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 1
+)
+Array
+(
+    [ID] => 1
+    [Serch_rule] => Hong Kong’s one-stop platform for beauty booking and pampering!
+    [zh_HK] => 香港的一站式美容預約及護理平台！
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [Serch_rule] => BloomMe allows you to browse and book beauty appointments at Hong Kong’s finest spas and salons!
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 2
+)
+Array
+(
+    [ID] => 2
+    [Serch_rule] => BloomMe allows you to browse and book beauty appointments at Hong Kong’s finest spas and salons!
+    [zh_HK] => BloomMe讓你瀏覽及預約香港最優質的水療及美容中心！
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [Serch_rule] => How it Works
+)
+Array
+(
+    [name] => static_translate
+)
+Array
+(
+    [ID] => 3
+)
+Array
+(
+    [ID] => 3
+    [Serch_rule] => How it Works
+    [zh_HK] => 如何運作
+)
+Array
+(
+    [name] => static_translate
+)

@@ -5,8 +5,9 @@ if(isset($_POST) && $_POST!=NULL) {
 //function add_row($t_name,$value)
 
 	$t_name="static_translate";
-	$value=[$_POST['en_US'],$_POST['zh_HK']];
-
-
+	$value=[$_POST['Serch_rule']];
+	$value = preg_replace_callback("/(&#[0-9]+;)/", function($m) { return mb_convert_encoding($m[1], "UTF-8", "HTML-ENTITIES"); },$value);
+	$value = str_replace("\\",'',$value);
+	//var_dump($value);
 	add_row($t_name,$value);
 }
