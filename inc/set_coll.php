@@ -1,1 +1,1 @@
-<?php/** * Add new column action */if(isset($_POST) && $_POST!=NULL) {    require realpath(__DIR__) . "/db_manager.php";    $t_name="static_translate";    $name=$_POST['selected'];    add_new_column($t_name,$name);}
+<?php/** * Add new column action */if(isset($_POST) && $_POST!=NULL) {    require realpath(__DIR__) . "/db_manager.php";    $t_name="static_translate";    $name = $_POST['selected'];    add_new_column($t_name,$name);}

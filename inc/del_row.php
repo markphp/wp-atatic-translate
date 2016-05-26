@@ -1,1 +1,1 @@
-<?php/** * do action to delete row */if(isset($_POST) && $_POST!=NULL) {	require realpath( __DIR__ ) . "/db_manager.php";	$t_name = "static_translate";	$t_ID = $_POST['ID'];	del_row($t_name,$t_ID);}
+<?php/** * do action to delete row * @param $_POST - get from $_POST ID of row in table */if(isset($_POST) && $_POST!=NULL) {	require realpath( __DIR__ ) . "/db_manager.php";	$t_name = $_POST['t_name'];;	$r_ID = $_POST['ID'];	del_row($t_name,$r_ID);}
