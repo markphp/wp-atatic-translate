@@ -118,6 +118,12 @@ if(isset($_POST['search'])) {
 
                 del_col(t_name,c_name);
             });
+
+            $(".data_row").click(function(){
+                $(".active").removeClass("active");
+                $(this).addClass("active");
+            });
+
         });})(jQuery);
 
     </script>';
