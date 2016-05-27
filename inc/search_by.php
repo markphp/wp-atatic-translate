@@ -69,7 +69,7 @@ if(isset($_POST['search'])) {
 		}
 		$table .= '</th>';
 		if($key == 'ID') {
-			$table .= '<th></th>';
+			$table .= '<th style="width:90px;"></th>';
 		}
 	}
 	$table .= '</tr>
