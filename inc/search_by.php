@@ -17,7 +17,7 @@ if(isset($_POST['search'])) {
 
 		$table .= '<th>' . $colum;
 		if($key != 'ID' && $key != 1){
-			$table .=' <span class="dashicons dashicons-dismiss delet_col" title="Remove column"></span>';
+			$table .=' <span class="dashicons dashicons-trash delet_col" title="Remove column"></span>';
 		}
 		$table .= '</th>';
 
@@ -48,7 +48,7 @@ if(isset($_POST['search'])) {
 
 			if($key == 'ID'){
 				$table .= '<td  style="text-align:center;vertical-align: middle;font-weight: bold;">
-                                            <span class="dell dashicons dashicons-dismiss" title="Remove the row!"></span>
+                                            <span class="dell dashicons dashicons-trash" title="Remove the row!"></span>
                                             <span class="edit dashicons dashicons-edit" title="Edit row"></span>
                                        </td>';
 			}
@@ -65,7 +65,7 @@ if(isset($_POST['search'])) {
 	foreach (get_colums_name($t_name) as $key => $colum) {
 		$table .= '<th>' . $colum;
 		if($key != 'ID' && $key != 1){
-			$table .=' <span class="dashicons dashicons-dismiss delet_col" title="Remove column"></span>';
+			$table .=' <span class="dashicons dashicons-trash delet_col" title="Remove column"></span>';
 		}
 		$table .= '</th>';
 		if($key == 'ID') {
