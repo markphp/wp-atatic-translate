@@ -1,0 +1,54 @@
+<?php
+/**
+ * Plugin Name: WP CRM System
+ * Plugin URI: https://github.com/markphp
+ * Description: A simple and easy way to maneg your buisness process for all the static action in WordPress. A great buisnes tool!
+ * Author: Mark
+ * Author URI: mark.org.ua
+ * Version: 0.0.1
+ * Text Domain: wp-crm-system
+ * License: GPLv2
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+register_activation_hook( __FILE__, array( 'crmPlugin', 'install' ) );
+
+register_deactivation_hook( __FILE__, 'crmPlugin_deactivate' );
+
+register_uninstall_hook(__FILE__, 'crmPlugin_uninstall');
+
+
+/**
+ * Install
+ * (activate)
+ */
+class crmPlugin {
+	static function install() {
+
+		// Add a custom user role
+		$result = add_role( 'client', __('Client' ),
+
+			array(
+				'read' => true, // true allows this capability
+			)
+
+		);
+	}
+}
+
+
+/**
+ * Deactivate
+ */
+function crmPlugin_deactivate(){
+	remove_role ('Client')
+}
+
+
+
+/**
+ * Uninstall
+ */
+function crmPlugin_uninstall(){
+
+}
